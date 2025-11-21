@@ -1,0 +1,8 @@
+
+
+# Ignore environment files
+backend/.env
+*.env
+
+# Ignore Python venv
+venv/
