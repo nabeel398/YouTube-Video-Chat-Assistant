@@ -1,4 +1,8 @@
+venv
+backend/.env
 
+backend/.env
+*.env
 
 # Ignore environment files
 backend/.env
@@ -6,56 +10,3 @@ backend/.env
 
 # Ignore Python venv
 venv/
-
-
-
-
-# ---------------------------
-# Frontend ignores (React/Next.js)
-# ---------------------------
-
-# dependencies
-frontend/node_modules/
-frontend/.pnp
-frontend/.pnp.*
-frontend/.yarn/*
-!frontend/.yarn/patches
-!frontend/.yarn/plugins
-!frontend/.yarn/releases
-!frontend/.yarn/versions
-
-# testing
-frontend/coverage/
-
-# next.js build output
-frontend/.next/
-frontend/out/
-
-# production build
-frontend/build/
-
-# misc
-frontend/.DS_Store
-frontend/*.pem
-
-# debug logs
-frontend/npm-debug.log*
-frontend/yarn-debug.log*
-frontend/yarn-error.log*
-frontend/.pnpm-debug.log*
-
-# env files (frontend)
-frontend/.env*
-frontend/.vercel
-
-# typescript
-frontend/*.tsbuildinfo
-frontend/next-env.d.ts
-
-# ---------------------------
-# General ignores
-# ---------------------------
-
-node_modules/
-dist/
-build/
