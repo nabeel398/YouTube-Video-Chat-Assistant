@@ -1,31 +1,14 @@
-# Python
+# Python cache
 __pycache__
 *.pyc
 *.pyo
 *.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
 
 # Virtual environments
 .env
 .venv
 env/
 venv/
-ENV/
-env.bak/
-venv.bak/
 
 # IDE
 .vscode/
@@ -35,34 +18,12 @@ venv.bak/
 
 # OS
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
 
 # Git
 .git
-.gitignore
-.gitmodules
 
-# Logs
-logs/
-*.log
+# Logs (we want to see these in development)
+# *.log
 
-# Instance data (except the directory structure)
-instance/faiss_index/*
-!instance/faiss_index/.gitkeep
-
-# Environment files (except template)
-.env
-.env.local
-.env.prod
-!env.example
-
-# Cache and temp files
-.cache
-.ruff_cache
-.mypy_cache
-.pytest_cache
+# Keep instance directory for development

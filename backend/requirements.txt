@@ -4,9 +4,13 @@ uvicorn==0.24.0
 python-multipart==0.0.6
 
 # Groq AI
-groq==0.3.1
+groq==0.36.0
 langchain-groq==0.1.0
-langchain==0.0.350
+
+# Use compatible langchain versions
+langchain==0.0.33
+langchain-community==0.0.33
+langchain-core==0.1.33
 
 # Vector Store & Embeddings
 faiss-cpu==1.7.4
