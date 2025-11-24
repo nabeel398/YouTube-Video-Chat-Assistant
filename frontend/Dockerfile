@@ -10,6 +10,8 @@ RUN npm install
 
 # Copy source code
 COPY . .
+# Build the application
+RUN npm run build
 
 EXPOSE 3000
 
